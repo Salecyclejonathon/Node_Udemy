@@ -2,6 +2,7 @@ console.log('Starting app');
 
 const fs = require('fs'); // Allows us to write to a file
 const os = require('os');
+const notes = require('./notes.js'); // require file for notes.js in our directory
 
 const _ = require('lodash'); // install a third party module
 
@@ -21,4 +22,5 @@ console.log(filteredAr);
 //   }
 // });
 //
+
 // console.log('successfully printed to file!');
