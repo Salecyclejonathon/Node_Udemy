@@ -8,7 +8,7 @@ const notes = require('./notes.js'); // require file for notes.js in our directo
 const argv = yargs.argv;
 var command = process.argv[2];
 console.log('command: ' + command);
-console.log('Yargs', argv);
+//console.log('Yargs', argv);
 
 if (command === 'add') {
 
